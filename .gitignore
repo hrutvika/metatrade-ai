@@ -11,6 +11,10 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+.env.*
+!.env.example
+backtest_*.csv
+
 # C extensions
 *.so
 
