@@ -1,3 +1,11 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+predictions.db
+backtest_results.csv
+.pytest_cache/
+.DS_Store
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -25,7 +33,7 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
-
+PLAN.md
 # PyInstaller
 #   Usually these files are written by a python script from a template
 #   before PyInstaller builds the exe, so as to inject date/other infos into it.
@@ -158,6 +166,9 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+
+# Conda environments
+conda-meta/
 
 # Spyder project settings
 .spyderproject
