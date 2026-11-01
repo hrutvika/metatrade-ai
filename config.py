@@ -3,7 +3,7 @@ import os
 
 from dotenv import load_dotenv
 
-load_dotenv()
+load_dotenv(os.getenv("ENV_FILE", ".env"))
 
 # Meta Model API is OpenAI-SDK compatible. The OpenAI client does NOT read
 # MODEL_API_KEY automatically, so we pass it explicitly (see llm.py).

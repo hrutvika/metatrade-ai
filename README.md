@@ -1,5 +1,5 @@
 # Meta Global AI Developer Hackathon
-git
+
 ## MetaTrade AI
 
 A transparent trading **decision-support** engine that combines technical analysis with
